@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+    <title>Form</title>
+    <!-- <link rel="stylesheet" href="form.css"> -->
+    <style>
+        fieldset {
+            border: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="search">
+        <input type="text" placeholder="...">
+        <button type="button">Search</button>
+    </div>
+    <!-- <section> -->
+    <div class="personal details">
+        <form id="msform" action="https://send.pageclip.co/LLwbrVuQrj7roPK5E98hmbXMo5QyUlNJ/contact-from" class="pageclip-form" method="post">
+            <!-- To take basic details of the student such as name,usn,gmail,number..etc -->
+            <h2 class="fs-title">Personal Details</h2>
+
+            <fieldset>
+                <h3>Tell us something about you</h3>
+                <input type="text" name="fname" id="fnam" placeholder="First Name" />
+                <input type="text" name="lname" id="lnam" placeholder="Last Name" />
+                <input type="text" name="phone" id="p_no" placeholder="Phone" />
+                <input type="gmail" name="gmail" id="gmai" placeholder="Gmail" />
+                <input type="text" name="USN" id="usno" placeholder="USN" />
+                <input type="text" name="branch" id="bran" placeholder="Branch" />
+                <input type="text" name="gender" id="m_f" placeholder="Gender" />
+            </fieldset>
+    </div>
+    <div class="social profiles">
+        <h2>Social Profiles</h2>
+        <fieldset>
+            <h3>Your presence on the social network</h3>
+            <input type="text" name="git" id="ghub" placeholder="GitHub" />
+            <input type="text" name="facebook" id="fboo" placeholder="Facebook" />
+            <input type="text" name="linkedin" id="ldin" placeholder="LinkedIn" />
+            <input type="text" name="Instagram" id=" igram" placeholder="Instagram" />
+        </fieldset>
+    </div>
+    <div class="interested in">
+        <h2>Interested in</h2>
+        <fieldset>
+
+            <p class="para">Role You Want At GFG</p>
+            <input type="radio" class="radio" id="rol" name="role" value="HTML">
+            <label for="html" class="radio" id="techrl">Techenical Role</label><br>
+            <input type="radio" class="radio" id="csss" name="role" value="CSS">
+            <label for="css" class="radio" id="crol">Creative Role</label><br>
+            <input type="radio" class="radio" id="javascrip" name="role" value="JavaScript">
+            <label for="javascript" class="radio" id="mngmt_rl">Management Role</label>
+            <p class="para">Skills</p>
+            <input type="text" name="git" class="LText" id="skil" placeholder="Skills" />
+        </fieldset>
+    </div>
+    <div class="about-you">
+        <h2>ABOUT YOU</h2>
+        <fieldset>
+            <h3>Tell us something more about you</h3>
+            <input type="text" name="strenghts" id="stren" placeholder="Strengths" />
+            <input type="text" name="weakness" id="weakn" placeholder="Weakness" />
+            <p><label for="why_gfg" id="gfg_reason">Why GeeksforGeeks</label></p>
+            <textarea name="gfg" rows="3" cols="8"></textarea>
+            <p><label for="why_you" id="why_u">Why should we recruit you? </label></p>
+            <textarea name="why you" rows="3" cols="8"></textarea>
+            <input type="text" name="other club" id="oclub" placeholder="Are you in any other college club?" />
+
+        </fieldset>
+    </div>
+    <button type="submit" name="submit" class="submit action-button pageclip-form__submit" id="sub_btn" value="Submit">Submit</button>
+    </form>
+    <div class="submit"></div>
+
+</body>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
+</html>
